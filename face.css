@@ -164,3 +164,7 @@ nav ul a {
   font-family: monospace;
   text-align: center;
 }
+
+pre {
+  font-family: consolas, monospace;
+}

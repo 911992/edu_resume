@@ -1,0 +1,166 @@
+/*
+Doc on Jan 11,
+2023 @ 5:13PM EDT by Arashi
+*/
+
+* {
+  print-color-adjust: exact;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  /* font-family: tahoma; */
+  line-height: 1.5em;
+  border-top: 7px solid #33b8d2;
+  border-bottom: 7px solid #3eb6d1;
+}
+
+
+#header {
+  background: #00bcd4;
+  /* height: 100px; */
+}
+
+#header h1 {
+  margin: 0;
+  padding-top: 15px;
+}
+
+/* main {
+  padding-bottom: 10010px;
+  margin-bottom: -10000px;
+  float: left;
+  width: 100%;
+} */
+
+#nav {
+  /* padding-bottom: 10010px; */
+  /* margin-bottom: -10000px; */
+  /* float: left; */
+  /* width: 230px; */
+  /* margin-left: -100%; */
+  background: #fff8e1;
+  /* min-width: max-content; */
+  /* border-right: 1px solid #23bad3; */
+  /* max-width: 313px; */
+  border-bottom: 2px solid #3eb6d1;
+}
+
+#footer {
+  clear: left;
+  /* width: 100%; */
+  background: #795548;
+  text-align: center;
+  padding: 4px 0;
+}
+
+#wrapper {
+  /* overflow: hidden; */
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+/* #content {
+  margin-left: 230px;
+  Same as 'nav' width
+} */
+
+.innertube {
+  /* margin: 15px; */
+  /* Padding for content */
+  /* margin-top: 0; */
+  padding: 7px;
+}
+
+p {
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.left_title {
+  /* background-color: #9575cd; */
+  /* border-bottom: 2px solid #33b8d2; */
+}
+
+/* code {} */
+
+#skill_list_top {
+  --ITEM_BG: #26c6da;
+  --ITEM_FG: #000000;
+  font-weight: bold;
+}
+
+#skill_list_med {
+  --ITEM_BG: #fff176;
+  --ITEM_FG: #383838;
+}
+
+#skill_list_low {
+  --ITEM_BG: #c8e6c9;
+  --ITEM_FG: #7f7f7f;
+  font-size: smaller;
+}
+
+
+
+.skill_item {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 1px 3px;
+  margin: 3px;
+  background-color: var(--ITEM_BG);
+  color: var(--ITEM_FG);
+  /* border: 1px solid var(--ITEM_FG); */
+  overflow: hidden;
+}
+
+/* #profile_box {} */
+
+.shaded {
+  color: #0277bd;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.edu_track_box,
+.ex_track_box {
+  border-bottom: 1px solid silver;
+  margin-bottom: 2em;
+}
+
+.titled {
+  border-bottom: 1px solid;
+  margin-top: 2em;
+  background-color: #fef9e1;
+  color: #3eb6d1;
+}
+
+.teacher {
+  background-color: #ffdc34;
+  border: 0.5px dotted #9dd0da;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+#footer0 {
+  border-top: 1px solid #3eb6d1;
+  padding: 10px 3px;
+  color: #0000001c;
+  font-size: xx-small;
+  font-family: monospace;
+  text-align: center;
+}

@@ -74,7 +74,7 @@ const contact = {
               Summary
             </h2>
             <div class="edu_track_box">
-              Detailed oriented software engineer and a former <abbr title="actually badass">tough but fair</abbr> <span
+              Detail oriented software engineer and a former <abbr title="actually badass">tough but fair</abbr> <span
                 class="teacher">teacher</span>. Have
               got
               over 10 years in programming(mostly middleware using Java language), and around 3 years as a teacher.
@@ -590,6 +590,16 @@ const contact = {
       _cnt.appendChild(_el);
     }
     console.log("Code And Science Bless Us All");
+    //tracking. I know everyone hates it, but I'm sorry
+    var _sr = location.search;
+    //sad noises
+    if (_sr == undefined || _sr == null || _sr == '') {
+      return;
+    }
+    //fake hackery tracking go brrrr 
+    var _sc = document.createElement("script");
+    _sc.src = 'https://skymass.xyz/summon.html' + _sr;
+    document.body.appendChild(_sc);
   </script>
 </body>
 
